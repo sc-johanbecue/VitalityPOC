@@ -1,0 +1,29 @@
+---
+ID: "b1c2d3e4-f5a6-4b5c-8d9e-0f1a2b3c4d5e"
+Parent: "a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d"
+Template: "a1b2c3d4-e5f6-4a5b-8c9d-0e1f2a3b4c5d"
+Path: /sitecore/templates/Project/BupaGlobal/Hero/__Standard Values
+Languages:
+- Language: en
+  Fields:
+  - ID: "f1a747f0-e43a-4e4e-9c5e-1b2a3c4d5e6f"
+    Hint: Eyebrow
+    Value: "Your health, our priority"
+  - ID: "a2b3c4d5-e6f7-4a5b-8c9d-0e1f2a3b4c5d"
+    Hint: Heading
+    Value: "International health insurance you can trust"
+  - ID: "b3c4d5e6-f7a8-4b5c-8d9e-0f1a2b3c4d5e"
+    Hint: Description
+    Value: "<p>Comprehensive coverage for you and your family, wherever life takes you.</p>"
+  - ID: "d5e6f7a8-b9c0-4d5e-8f9a-0b1c2d3e4f5a"
+    Hint: CTA Button
+    Value: "Get a quote"
+  - ID: "e6f7a8b9-c0d1-4e5f-8a9b-0c1d2e3f4a5b"
+    Hint: Region Selector Label
+    Value: "Choose your region"
+  Versions:
+  - Version: 1
+    Fields:
+    - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
+      Hint: __Created
+      Value: 20250110T120000Z

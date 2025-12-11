@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<configuration xmlns:xdt="http://schemas.microsoft.com/XML-Document-Transform">
+  <location path="sitecore">
+    <settings>
+      <setting name="LayoutService.DetailedRenderingParams" value="false">
+        <patch:attribute name="value">true</patch:attribute>
+      </setting>
+    </settings>
+  </location>
+</configuration>
