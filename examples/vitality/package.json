@@ -40,7 +40,7 @@
     "react-icons": "^5.5.0",
     "tailwind-merge": "^3.3.1",
     "tailwindcss-animate": "^1.0.7",
-    "wc-sitecore-demo": "file:../../wc-sitecore-demo-1.0.0.tgz"
+    "wc-sitecore-demo": "file:wc-sitecore-demo-1.0.0.tgz"
   },
   "devDependencies": {
     "@sitecore-content-sdk/cli": "~1.2.1",
