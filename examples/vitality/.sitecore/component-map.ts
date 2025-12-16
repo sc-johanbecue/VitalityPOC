@@ -5,6 +5,8 @@ import { Form } from '@sitecore-content-sdk/nextjs';
 
 // end of built-in components
 import * as WideCardSection from 'src/components/vitality/WideCardSection';
+import * as VitalityCardsSection from 'src/components/vitality/VitalityCardsSection';
+import * as VitalityCard from 'src/componencomponents/vitality/VitalityCard
 import * as TopNavigationMobile from 'src/components/vitality/TopNavigationMobile';
 import * as TopNavigation from 'src/components/vitality/TopNavigation';
 import * as TextWithImageSection from 'src/components/vitality/TextWithImageSection';
@@ -45,6 +47,8 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['FEaaSWrapper', FEaaSWrapper],
   ['Form', Form],
   ['WideCardSection', { ...WideCardSection }],
+  ['VitalityCardsSection', { ...VitalityCardsSection, componentType: 'client' }],
+  ['VitalityCard', { ...VitalityCard, componentType: 'client' }],
   ['TopNavigationMobile', { ...TopNavigationMobile, componentType: 'client' }],
   ['TopNavigation', { ...TopNavigation, componentType: 'client' }],
   ['TextWithImageSection', { ...TextWithImageSection, componentType: 'client' }],
