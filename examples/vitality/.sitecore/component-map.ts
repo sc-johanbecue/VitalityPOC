@@ -31,6 +31,8 @@ import * as CoverCard from 'src/components/vitality/CoverCard';
 import * as ContentSection from 'src/components/vitality/ContentSection';
 import * as ContentCard from 'src/components/vitality/ContentCard';
 import * as BrandAssuranceSection from 'src/components/vitality/BrandAssuranceSection';
+import * as BackupVitCardSection from 'src/components/vitality/BackupVitCardSection';
+import * as BackupVitCard from 'src/components/vitality/BackupVitCard';
 import * as ArticlesSection from 'src/components/vitality/ArticlesSection';
 import * as ArticleCard from 'src/components/vitality/ArticleCard';
 import * as sheet from 'src/components/ui/sheet';
@@ -69,6 +71,8 @@ export const componentMap = new Map<string, NextjsContentSdkComponent>([
   ['ContentSection', { ...ContentSection, componentType: 'client' }],
   ['ContentCard', { ...ContentCard, componentType: 'client' }],
   ['BrandAssuranceSection', { ...BrandAssuranceSection, componentType: 'client' }],
+  ['BackupVitCardSection', { ...BackupVitCardSection }],
+  ['BackupVitCard', { ...BackupVitCard }],
   ['ArticlesSection', { ...ArticlesSection, componentType: 'client' }],
   ['ArticleCard', { ...ArticleCard, componentType: 'client' }],
   ['sheet', { ...sheet, componentType: 'client' }],
