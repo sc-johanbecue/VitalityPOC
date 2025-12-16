@@ -6,6 +6,8 @@
 @custom-variant dark (&:is(.dark *));
 
 @config '../assets/tailwind.config.cjs';
+@import "wc-sitecore-demo/dist/index.css";
+
 
 .content-sdk-rich-text {
     ul {

@@ -86,7 +86,7 @@ export const Alternative = (props: ComponentProps): JSX.Element => {
         <Text field={props.fields.Title} />
       </h3>
 
-      <div className="text-gray-700 text-base leading-relaxed min-h-[3rem]">
+      <div className="text-gray-700 text-base leading-relaxed min-h-12">
         <RichText field={props.fields.Description} />
       </div>
 
