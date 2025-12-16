@@ -54,3 +54,7 @@ claude.md
 *.claude.md
 .claude/
 .cursorrules
+
+
+examples/vitality/.sitecore/component-map.ts
+examples/vitality/.sitecore/import-map.ts
